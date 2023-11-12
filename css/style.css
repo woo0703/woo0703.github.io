@@ -1,0 +1,77 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+input {
+    border: 2px solid rgb(179, 177, 177);
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 3px solid rgb(160, 202, 219);
+}
+
+.hidden {
+    display: none;
+}
+
+#weather span{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px black;
+    margin-top: 80px;
+    display: inline-block;
+}
+
+
+#clock{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px black;
+
+}
+
+#greeting{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px black;
+
+}
+
+#todo-list{
+    text-align: center;
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px black;
+
+}
+
+#todo-form{
+    text-align: center;
+
+    
+}
+
+#todo-form input{
+    width: 300px;
+    height: 30px;
+}
+#login-form input{
+    height: 40px;
+}
+#login-form input[type="text"] {
+    width: 240px;
+}
+
+#login-form,#login-form::placeholder, input::placeholder {
+    font-size: 20px;
+    text-align: center;
+}
